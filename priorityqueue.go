@@ -1,4 +1,4 @@
-package priorityQueue
+package priorityqueue
 
 import (
 	"cmp"
@@ -35,6 +35,9 @@ func (q *Queue[T]) Push(x T) {
 }
 
 func (q *Queue[T]) Pop() T {
+	if q.Len() == 0 {
+		panic("queue is empty")
+	}
 	old := *q
 	n := len(old)
 	item := old[0]
