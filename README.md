@@ -1,4 +1,3 @@
-<img width="976" alt="image" src="https://github.com/user-attachments/assets/ef9304fa-164d-4820-b525-54cf0937c84f"># priorityQueue
 ## Priority queue with Generics support
 
 * Supports only cmp.Ordered types
