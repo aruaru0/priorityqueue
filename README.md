@@ -34,3 +34,6 @@ for pq.Len() != 0 {
 	fmt.Println(e)
 }
 ```
+
+An explanation of the details of code can be found in the [blog article](https://tech.aru-zakki.com/heap-priority-queue-golang/) (Japanese)
+
